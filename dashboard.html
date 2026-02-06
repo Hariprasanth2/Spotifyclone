@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Spotify Dashboard</title>
+  <link rel="stylesheet" href="dashobard.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+
+<nav class="topbar">
+  <div class="left">
+    <i class="fa-brands fa-spotify"></i>
+    <div class="home"><i class="fa-solid fa-house"></i></div>
+  </div>
+
+  <div class="search">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <input placeholder="What do you want to play?">
+    <i class="fa-solid fa-folder-open"></i>
+  </div>
+
+  <div class="right">
+    <span>Premium</span>
+    <span>Support</span>
+    <span>Download</span>
+    <span><i class="fa-regular fa-circle-down"></i> Install App</span>
+    <span>Sign up</span>
+    <a href="login.html"><button>Log in</button></a>
+  </div>
+</nav>
+
+
+<div class="main">
+
+
+  <div class="main-left-part">
+    <div class="library">
+      <p>Your Library</p>
+      <div>+</div>
+    </div>
+
+    <div class="box-container">
+      <div class="box">
+        <h4>Create your first playlist</h4>
+        <p>It's easy we'll help you</p>
+        <button>Create playlist</button>
+      </div>
+
+      <div class="box">
+        <h4>Let's find some podcast to follow</h4>
+        <p>We'll keep you updated on new updates</p>
+        <button>Browse podcasts</button>
+      </div>
+    </div>
+  </div>
+
+<div class="main-right-part">
+
+  <h2>Popular Songs</h2>
+
+  <div class="songs">
+
+    <div class="music-card"
+      data-audio="song 2.mp3"
+      data-title="Kadhal Ennulle"
+      data-desc="song"
+      data-img="2.jpg">
+
+      <img src="2.jpg">
+      <div class="music-play-btn">
+        <i class="fa-solid fa-circle-play"></i>
+      </div>
+      <div class="img-title">Kadhal Ennulle</div>
+      <div class="img-description">Neram </div>
+    </div>
+
+    <div class="music-card"
+      data-audio="song1.mp3"
+      data-title="Nan Un"
+      data-desc="Song"
+      data-img="Images/2.jpg">
+
+      <img src="1.jpg">
+      <div class="music-play-btn">
+        <i class="fa-solid fa-circle-play"></i>
+      </div>
+      <div class="img-title">Nan Un</div>
+      <div class="img-description">24</div>
+    </div>
+
+    <div class="music-card"
+      data-audio="song 3.mp3"
+      data-title="Melody"
+      data-desc="song"
+      data-img="3.jpg">
+
+      <img src="3.jpg">
+      <div class="music-play-btn">
+        <i class="fa-solid fa-circle-play"></i>
+      </div>
+      <div class="img-title">Thappa Dhaan Theriyum</div>
+      <div class="img-description">Maari</div>
+    </div>
+        <div class="music-card"
+      data-audio="song4.mp3"
+      data-title="song"
+      data-desc="Peaceful music"
+      data-img="4.jpg">
+
+      <img src="4.jpg">
+      <div class="music-play-btn">
+        <i class="fa-solid fa-circle-play"></i>
+      </div>
+      <div class="img-title"> Engadi Nee Ponae</div>
+      <div class="img-description">Dev</div>
+    </div>
+        <div class="music-card"
+      data-audio="song5.mp3"
+      data-title="song"
+      data-desc="song"
+      data-img="Images/3.jpg">
+
+      <img src="5.jpg">
+      <div class="music-play-btn">
+        <i class="fa-solid fa-circle-play"></i>
+      </div>
+      <div class="img-title">Ullaallaa</div>
+      <div class="img-description">Petta</div>
+    </div>
+        <div class="music-card"
+      data-audio="song6.mp3"
+      data-title="Melody"
+      data-desc="Peaceful music"
+      data-img="Images/3.jpg">
+
+      <img src="6.jpg">
+      <div class="music-play-btn">
+        <i class="fa-solid fa-circle-play"></i>
+      </div>
+      <div class="img-title">Pookkale Satru</div>
+      <div class="img-description">I</div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div class="player-bar center-player">
+
+  <div class="music-controller">
+    <div class="player">
+      <i id="prevBtn" class="fa-solid fa-backward-step player-btns"></i>
+      <i id="playBtn" class="fa-solid fa-circle-play player-btns"></i>
+      <i id="nextBtn" class="fa-solid fa-forward-step player-btns"></i>
+    </div>
+
+    <input type="range" id="progressBar" value="0">
+  </div>
+
+</div>
+
+
+<audio id="audio"></audio>
+<script src="script.js"></script>
+
+
+</body>
+</html>
+</body>
+</html>

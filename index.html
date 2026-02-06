@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Spotify Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login-box">
+      <h2>Spotify</h2>
+
+      <input type="text" id="username" placeholder="Email or Username" />
+      <input type="password" id="password" placeholder="Password" />
+
+      <button onclick="login()">Log In</button>
+
+      <p class="or">or</p>
+
+      <button class="social-btn" onclick="showPhone()">
+        Continue with phone number
+      </button>
+      <button class="social-btn" onclick="showGoogle()">
+        Continue with Google
+      </button>
+
+      <div id="phone-box" style="display: none">
+        <input type="text" id="phone" placeholder="Enter phone number" />
+        <button onclick="login()">Continue</button>
+      </div>
+
+      <div id="google-box" style="display: none">
+        <input type="text" id="google" placeholder="Enter Google email" />
+        <button onclick="login()">Continue</button>
+      </div>
+
+      <p class="signup">Don’t have an account? <span>Sign up</span></p>
+
+      <p id="error"></p>
+    </div>
+
+    <script src="login.js"></script>
+  </body>
+</html>
