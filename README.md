@@ -41,7 +41,7 @@ This project recreates Spotify’s **login page, dashboard UI**, and a **fully f
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Icons:** Font Awesome
-- **Audio:** HTML5 Audio API
+- **Audio:** mp3
 
 ---
 
