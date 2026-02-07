@@ -3,6 +3,10 @@
 A Spotify-inspired web application built using **HTML, CSS, and JavaScript**.  
 This project recreates Spotify’s **login page, dashboard UI**, and a **fully functional music player**.
 
+#LINK
+Your site is live at https://hariprasanth2.github.io/Spotifyclone/
+
+
 ---
 
 ## 📌 Features
